@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4fd1b939.css",
+    "main.js": "/static/js/main.51d5047e.js",
+    "static/media/CSES_Website.png": "/static/media/CSES_Website.a1ffe566c735b62e3dc0.png",
+    "static/media/headshot.jpeg": "/static/media/headshot.d0a9fa969c1893182f06.jpeg",
+    "static/media/Lingo_Lab.png": "/static/media/Lingo_Lab.baae946ff7738f0266f5.png",
+    "static/media/Unity_Game.png": "/static/media/Unity_Game.17728aef5e9f9bebd6f5.png",
+    "static/media/Discord_Bot.png": "/static/media/Discord_Bot.e2d4a38fcf183b43db02.png",
+    "index.html": "/index.html",
+    "main.4fd1b939.css.map": "/static/css/main.4fd1b939.css.map",
+    "main.51d5047e.js.map": "/static/js/main.51d5047e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fd1b939.css",
+    "static/js/main.51d5047e.js"
+  ]
+}
