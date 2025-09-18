@@ -11,8 +11,9 @@ export const styles = {
 
   // Hero section styles
   hero: {
-    container: "relative min-h-screen bg-[#0a0a0c] flex items-center justify-center overflow-hidden",
+    container: "relative min-h-screen bg-[#0a0a0c] flex items-center justify-center overflow-hidden dotted-grid-hero",
     background: "absolute inset-0 opacity-15 z-0",
+    backgroundImage: "absolute inset-0 w-full h-full bg-center bg-cover",
     floatingImage: "absolute right-[8%] top-[65%] hidden xl:block z-10",
     imageContainer: "bg-white rounded-3xl w-56 h-56 overflow-hidden",
     imageInner: "w-full h-full bg-cover bg-center rounded-2xl",
@@ -173,7 +174,7 @@ export const styles = {
 
   // Common styles
   common: {
-    appContainer: "bg-[#000000] min-h-screen",
+    appContainer: "bg-[#000000] min-h-screen overflow-x-hidden",
     motionDiv: "",
     svgIcon: "w-16 h-16",
     svgIconSmall: "w-4 h-4",

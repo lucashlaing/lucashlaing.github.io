@@ -197,8 +197,8 @@ function SkillsSection() {
           <path d={svgPaths.p269747f0} stroke="white" strokeLinejoin="round" strokeWidth="2" />
         </svg>
       ),
-      title: "Web Development",
-      description: "Built full-stack applications using React, Node.js, and Firebase. Led CSES website development that boosted user engagement by 20% and cut development time by 50%."
+      title: "Software Engineering",
+      description: "Built full-stack applications using React, Node.js, and Firebase. Coded a AI-powered research assistant that disects research papers and provides context-aware definitions."
     },
     {
       icon: (
@@ -232,8 +232,8 @@ function SkillsSection() {
           </defs>
         </svg>
       ),
-      title: "Software Engineering",
-      description: "Improved client report readability by 30% and achieved 100% PDF download success rate at Revicid. Engineered robust systems with intelligent automation."
+      title: "Product Management",
+      description: "Led product strategy and feature development for Computer Science Engineering Society website. Boosted user engagement and streamlined development processes through agile project management."
     },
     {
       icon: (
@@ -241,7 +241,7 @@ function SkillsSection() {
           <path d={svgPaths.p461d280} fill="white" />
         </svg>
       ),
-      title: "Leadership & Management",
+      title: "Leadership",
       description: "Generated $2,000+ through fundraising initiatives and reduced coordination time by 36% as VP Internal of CSES. Organized events with 100+ attendees."
     }
   ];
