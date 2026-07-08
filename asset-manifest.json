@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b04d1e40.css",
-    "main.js": "/static/js/main.33126b1e.js",
+    "main.js": "/static/js/main.819d2d59.js",
     "static/media/CSES_Website.png": "/static/media/CSES_Website.a1ffe566c735b62e3dc0.png",
     "static/media/Runway_Avenue.png": "/static/media/Runway_Avenue.142145e15c2770110b81.png",
     "static/media/headshot.jpeg": "/static/media/headshot.d0a9fa969c1893182f06.jpeg",
@@ -9,10 +9,10 @@
     "static/media/Operon.png": "/static/media/Operon.b52d7c120bbd95845509.png",
     "index.html": "/index.html",
     "main.b04d1e40.css.map": "/static/css/main.b04d1e40.css.map",
-    "main.33126b1e.js.map": "/static/js/main.33126b1e.js.map"
+    "main.819d2d59.js.map": "/static/js/main.819d2d59.js.map"
   },
   "entrypoints": [
     "static/css/main.b04d1e40.css",
-    "static/js/main.33126b1e.js"
+    "static/js/main.819d2d59.js"
   ]
 }
