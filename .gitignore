@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# impeccable (vendored locally, not committed)
+/.claude
+/.impeccable
+/.gitmodules
+myinfo.md 
+Min Zin Hlaing - Resume.pdf
+DESIGN.md
+PRODUCT.md

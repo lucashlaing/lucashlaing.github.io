@@ -8,8 +8,6 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.4",
     "@mui/material": "^6.4.4",
-    "@types/animejs": "^3.1.13",
-    "animejs": "^3.2.2",
     "cra-template-typescript": "1.2.0",
     "motion": "^12.23.13",
     "react": "^18.3.1",
