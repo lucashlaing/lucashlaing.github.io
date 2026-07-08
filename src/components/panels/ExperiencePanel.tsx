@@ -9,7 +9,7 @@ const experiences = [
     company: "Atrisense",
     role: "Scientific Software Engineering Intern",
     description:
-      "Building a catheter-matching engine with ICP and Bayesian updating across a 50-patient mesh, plus a PCA shape model of the left atrium that cut error by 70%.",
+      "Building scientific software for a medical-device startup, improving the accuracy of patient anatomy models. Specifics under NDA.",
   },
   {
     period: "Sept 2024 – Present",
