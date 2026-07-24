@@ -36,7 +36,7 @@ const STRING_BG =
 
 export default function SkillsPanel() {
   return (
-    <div className="mx-auto max-w-5xl">
+    <div>
       <SectionHeading note="A" title="Skills & Achievements" />
 
       {/* Fretboard */}

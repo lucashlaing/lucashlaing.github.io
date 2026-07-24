@@ -39,7 +39,7 @@ function Column({ title, items }: { title: string; items: string[] }) {
 
 export default function EducationPanel() {
   return (
-    <div className="mx-auto max-w-4xl">
+    <div>
       <SectionHeading note="B" title="Education" />
 
       {/* The luthier's label, glued to the soundboard inside the guitar. */}
@@ -48,7 +48,7 @@ export default function EducationPanel() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-        className="relative overflow-hidden rounded-2xl border border-white/12 p-6 shadow-[0_16px_40px_rgba(0,0,0,0.5)] md:p-8"
+        className="relative max-w-4xl overflow-hidden rounded-2xl border border-white/12 p-6 shadow-[0_16px_40px_rgba(0,0,0,0.5)] md:p-8"
         style={{ background: "linear-gradient(172deg, #2b2018 0%, #1a120b 55%, #130d08 100%)" }}
       >
         {/* Warm ambient, like light falling through the sound hole. */}

@@ -230,7 +230,7 @@ export default function ProjectsPanel() {
   };
 
   return (
-    <div className="mx-auto max-w-6xl">
+    <div>
       <SectionHeading
         note="D"
         title="Projects"

@@ -11,7 +11,7 @@ const spec = [
 
 export default function AboutPanel() {
   return (
-    <div className="mx-auto max-w-5xl">
+    <div>
       <SectionHeading note="E" title="About Me" />
 
       <div className="grid items-start gap-10 md:grid-cols-[220px_1fr]">

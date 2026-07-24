@@ -36,10 +36,11 @@ const experiences = [
 
 export default function ExperiencePanel() {
   return (
-    <div className="mx-auto max-w-3xl">
+    <div>
       <SectionHeading note="G" title="Experience" />
 
-      <ol className="flex flex-col">
+      {/* Keeps its own reading measure, but hangs off the page's left edge. */}
+      <ol className="flex max-w-3xl flex-col">
         {experiences.map((exp, i) => {
           const last = i === experiences.length - 1;
           return (

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Live height of the sticky nav, republished by StickyNav on every resize
+     (the pills wrap to two rows on narrow screens). Sections anchor to it so
+     their top hairline lands flush under the bar instead of a gap below it.
+     This value is only the fallback used before the first measurement. */
+  --nav-h: 53px;
+}
+
 html, body {
   margin: 0;
   padding: 0;

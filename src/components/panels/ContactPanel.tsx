@@ -35,7 +35,7 @@ function ArrowUpRight() {
 
 export default function ContactPanel() {
   return (
-    <div className="mx-auto max-w-3xl">
+    <div>
       <SectionHeading note="e" title="Let's Connect" />
 
       <motion.p
@@ -55,7 +55,7 @@ export default function ContactPanel() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.5, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-        className="relative mt-9 overflow-hidden rounded-2xl border border-white/12 shadow-[0_16px_40px_rgba(0,0,0,0.5)]"
+        className="relative mt-9 max-w-3xl overflow-hidden rounded-2xl border border-white/12 shadow-[0_16px_40px_rgba(0,0,0,0.5)]"
         style={{ background: "linear-gradient(150deg, #241812 0%, #17100b 55%, #0d0907 100%)" }}
       >
         {/* Ticket notches on the perforation (desktop). */}

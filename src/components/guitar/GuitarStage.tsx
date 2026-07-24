@@ -34,13 +34,15 @@ export default function GuitarStage() {
     [pluck, reducedMotion]
   );
 
-  // Reveal the sticky nav once the full-screen hero has scrolled away.
+  // Reveal the sticky nav as the hero's last sliver slides under where the nav
+  // sits. Without the negative top rootMargin the first section (About) arrives
+  // with no nav, because it lands while a hairline of hero is still on screen.
   useEffect(() => {
     const hero = heroRef.current;
     if (!hero || typeof IntersectionObserver === "undefined") return;
     const obs = new IntersectionObserver(
       ([entry]) => setPastHero(!entry.isIntersecting),
-      { threshold: 0 }
+      { threshold: 0, rootMargin: "-64px 0px 0px 0px" }
     );
     obs.observe(hero);
     return () => obs.disconnect();
@@ -147,13 +149,24 @@ export default function GuitarStage() {
               key={section.id}
               id={section.id}
               aria-label={section.label}
-              className={`scroll-mt-16 px-6 md:px-10 md:scroll-mt-20 ${
+              className={`px-6 pb-20 pt-20 md:px-10 md:pb-28 md:pt-28 ${
                 index === 0
-                  ? "pt-16 md:pt-24"
-                  : "border-t border-white/10 pt-20 md:pt-28"
-              } pb-20 md:pb-28`}
+                  ? // Sits directly under the hero, so it anchors at the hero's
+                    // own edge — any scroll-margin would strand a strip of
+                    // guitar at the top of the screen.
+                    "scroll-mt-0"
+                  : // Anchors one pixel under the bar's measured height, so the
+                    // section's top hairline lands beneath the nav's own and
+                    // the two read as a single rule rather than a stray line
+                    // floating below the bar.
+                    "scroll-mt-[calc(var(--nav-h)_-_1px)] border-t border-white/10"
+              }`}
             >
-              <Panel />
+              {/* The page measure. Sticky nav shares it, so every section
+                  heading and every nav item hang off one left edge. */}
+              <div className="mx-auto w-full max-w-5xl">
+                <Panel />
+              </div>
             </section>
           );
         })}
